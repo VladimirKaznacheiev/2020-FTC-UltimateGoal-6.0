@@ -39,6 +39,7 @@ public class TrainingOpMode extends LinearOpMode {
 
             robot.gamepadMoving(gamepad1);
             robot.inTakeMotors(gamepad1);
+            
             robot.shootMotors(gamepad1);
             robot.shootServo(gamepad1);
 
